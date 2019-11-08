@@ -1,0 +1,288 @@
+/* 
+<<<<<<< HEAD
+*main.css v0.10.0
+=======
+*main.css v0.10.0
+>>>>>>> v0.8.1
+*Updata:2019.10.25
+*Author:YongJae.Jeon
+*/
+
+/* main menu*/
+h2 {
+
+    margin: 0px;
+    color:black;
+    font-style: italic;
+    text-align: center;
+}
+
+section{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.box-test {
+    
+    line-height: 50px;
+    text-align:center;
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+    width: 10%;
+    height: 50%;
+    border: 1px solid yellow;
+    color:red;
+}
+.section1{
+    background-color:blue;
+    
+}
+.article-2nd-bg{
+    text-align: center;
+    background-color: red;
+
+}
+.article-3rd-bg{
+    background-color: blue;
+
+}
+.article-4th-bg{
+    background-color: rgba(2, 2, 0, 0.6);
+
+}
+.article-youtube{
+    background-color: fuchsia;
+
+}
+.article-sixth{
+    background-color: green;
+}
+
+
+
+
+.image-cropper-50{
+    height: 200px;
+    margin: 15px;
+    width:150;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%;
+
+
+}
+.image-cropper-25{
+    height: 200px;
+    margin: 15px;
+    width:150;
+    -webkit-border-radius:25%;
+    -moz-border-radius:25%;
+    -ms-border-radius:25%;
+    -o-border-radius:25%;
+    border-radius:25%;
+    
+
+}
+.image-cropper-5{
+    height: 200px;
+    margin: 15px;
+    width:150;
+    -webkit-border-radius:5%;
+    -moz-border-radius:5%;
+    -ms-border-radius:5%;
+    -o-border-radius:5%;
+    border-radius:5%;
+    
+
+}
+table{
+    margin: 0% auto;
+}
+.left {
+    position:absolute;
+    width:50%;
+    height:400px;
+    background-color: red
+  }
+  .right {
+    position:relative;
+    width:50%;
+    float: right;
+    height:400px;
+    background-image:url();
+    background-color: blue
+  }
+
+  .grid-container {
+    clear: both;
+    display: grid;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .item1 {
+    grid-column: 1 / span 3;
+   
+  }
+  .item2 {
+    grid-column: 1 / span 2;
+   
+  }
+  .item3 {
+    grid-column:  3;
+    grid-row: 2 / span 2;
+  }
+  .item10 {
+    grid-column:  2/span 2;
+    grid-row: 5;
+  }
+  aside{
+      border: 5px solid blue;
+  }
+aside div{
+    font-family: 'Cute Font', cursive;
+    background-color: white;
+    padding: 0 0 100px 0;
+    font-size: 25px;
+}
+
+.full-bg{
+    background:url(./images/bryce-2602307_640.jpg)no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display:table; /*title 위치를 위한 display 설정*/
+
+}
+.container{
+    display: table-cell;
+    text-align: center;
+    vertical-align:middle;
+}
+.header-title{
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(255, 255, 255, 0.8);
+    color: maroon;
+    
+
+}
+.header-sub-title{
+    font-size: 20px;
+    color: rgb(255, 244, 180)
+}
+
+/* Home Title */
+.home-title {
+    font-family: 'Cute Font', cursive;
+    color: black(159, 185, 255);
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+ 
+  #menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background:red;
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+
+}
+
+  #sub{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+  }
+  
+  #menu>li:hover #sub{
+      opacity: 1;
+      visibility: visible;
+  }
+  #menu>li{
+      float:left;
+      
+     
+  }
+  #menu>li>a{
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.85);
+      text-align: center;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      display: block;
+      border-right: 1px solid rgba(0, 0, 0, 15);
+      text-shadow: 1px 1px 1px  rgba(0, 0, 0, 2);
+      font-family: 'Cute Font', cursive;
+      display: block;
+      padding: 8px 24px;
+      background-color: orange;
+      
+     
+      
+  }
+  #sub{
+
+      position:absolute;
+      background: yellow;
+      opacity: 0;
+      visibility: hidden;
+      font-family: 'Cute Font', cursive;
+      margin: 0;
+      
+      
+     
+
+  }
+  #sub>li{
+      padding: 10px 16px;
+      border-bottom: 1px solid rgba(0, 0, 0, 15);
+
+  }
+  #sub>li>a{
+    padding: 16px 10px;
+      color: rgba(2, 2, 0, 0.6);
+      text-decoration: none;
+  }
+  
+  .ghost{
+      display: inline-block;
+      width: 100px;
+      padding: 70px;
+      color: gold;
+      background-color: red;
+      border:  1px solid gold;
+      text-align: center;
+      outline: none;
+      text-decoration: none;
+      font-size: 30px;
+      margin-top:30px;
+  }
+  .ghost:hover{
+    background-color: rgb(240, 110, 4);
+    font-size: 40px;
+    font-family: 'Cute Font', cursive;
+  }
+  
