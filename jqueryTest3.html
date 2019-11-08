@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>event basic</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    
+    $('button').click(function(){
+      $('.page').fadeToggle('slow');
+    });
+  });</script>
+</head>
+<body>
+  <button> 사라졌다 생김</button>
+  <div class="page">
+    <h1>Lorem ipsim dolor sit amet</h1>
+    <p>한번 누르면 사라짐, 두번 누르면 생김</p>
+  </div>
+</body>
+</html>
